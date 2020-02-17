@@ -61,9 +61,9 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
     private int tooltipMargin = DEFAULT_TOOLTIP_MARGIN;
 
     private View mContentBox;
-    private TextView mTitleTextView;
-    private TextView mContentTextView;
-    private TextView mDismissButton;
+    public TextView mTitleTextView;
+    public TextView mContentTextView;
+    public TextView mDismissButton;
     private boolean mHasCustomGravity;
     private TextView mSkipButton;
     private int mGravity;
